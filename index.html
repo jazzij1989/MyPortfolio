@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmine's Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+
+        </head>
+        <body>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Jasmine Williams</h1>
+                    <h3>Programmer</h3>
+                </div>
+            </div>
+        </body>
+        <style>
+            .hero-image {
+                 background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+                 rgba(0, 0, 0, 0.5)),
+                 url("images/Hero-Image.jpg");
+                 height: 50%;
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 position: relative;
+             }  
+             </style>
+        
+        <style>
+        .dropbtn {
+            background-color: white;
+            color:black;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display:none;
+            position: absolute;
+            background-color:#f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a{
+            color: black;
+            padding:12px 16px;
+            text-decoration: none;
+            display:block;
+
+        }
+        .dropdown-content a:hover {background-color: blue}
+        
+        .dropdown:hover .dropdown-content {display:block;}
+
+        .dropdown:hover .dropbtn {background-color: blue}
+        </style>
+    
+</head>
+<body>
+    <nav>
+        <div class=dropdown>
+            <button class="dropbtn">Navigation Menu</button>
+            <div class="dropdown-content">
+            <a href="index.html">Home</a> 
+            <a href="house.html">Welcome to my House!</a>       
+            <a href="career.html">Career</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="programmer.html">Why a Programmer?</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1>My name is Jasmine Williams. I am from Omaha, Nebraska. 
+                    This is my introduction portfolio. Click an image below to
+                    view different aspects of my life. </h1>
+                    <style>
+                        img {
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    </style>            
+            </article>
+            <a class="icon-images" href="house.html">
+                <img src="Images/house.jpg" alt="house"
+                style="width:100px;height:100px;">
+            </a>
+           <article class="main-articles">
+            <h2>Welcome to my house!</h2>
+            <p>I have a big family. My children are my main motivation 
+                to begin a new career. Click the house icon to learn 
+                more about my family.
+            </p></article>
+            <a class="icon-images" href="career.html">
+                <img src="Images/career.jpg" alt="career"
+                style="width:100px;height:100px;">
+            </a>
+            <article class="main-articles">
+            <h2>My Career Path</h2>
+            <p>I have been in the same industry in different forms
+                since I was 17 years. Click the icon above to learn 
+                more about my career path thus far. 
+            </p></article>
+            <a class="icon-images" href="hobbies.html">
+                <img src="Images/hobbies.jpg" alt=hobbies"
+                style="width:100px;height:100px;">
+            </a>
+            <article class="main-articles">
+            <h2>My Hobbies</h2>
+            <p>I'm a creative and I tend to be good at anything I put my mind to.
+                My hobbies reflect this. Click the hobbies icon to learn more
+                about what I like to do in my spare time </p></article>
+            <a class="icon-images" href="programmer.html">
+                <img src="Images/programmer.jpg" alt="programmer"
+                style="width:100px;height:100px;">
+            </a>
+            <article class="main-articles">
+            <h2>Why Do I Want To Be A Programmer?</h2>
+            <p>I'm looking to break into a whole new life-changing career.
+               Click the icon above to learn more.
+            </div>
+        </div>
+    <div class="side-articles">
+        <h2>Contact Me</h2></article>
+        <img id="profile-image" src="Images/Me.jpg"alt="Jasmine"
+        style="width:120px;height:200px">
+    
+    <div class="side-articles">
+        <p>Jasmine Williams</p>
+        <p><a href="mailto:jazzij1989@gmail.com">
+        jazzij1989@gmail.com</a></p>
+        <p>402-708-2527</p>
+        <strong><small>Leave your name and a message below</small></strong>
+            <br>
+            <form action="mailto:jazzij1989@gmail.com" method="POST">
+            <br>
+            <input type="text" id="name" placeholder="Name">
+            <br>
+            <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            &copy Jasmine Williams 2023
+        </div>
+    </footer>
+</body>
+</html>
